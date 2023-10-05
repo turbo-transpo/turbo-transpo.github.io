@@ -1,4 +1,4 @@
-Turbo-Transpo
+Product and Company name: Turbo-Transpo
     André Azzi      - 
     Diego Ferrot    - 
     Lourdes Najjar  - 
