@@ -1,2 +1,6 @@
 # turbo-transpo.github.io
-#testing
+André Azzi 
+Diego Ferrot 
+Lourdes Najjar 
+Sonja Jovic 
+Zachary Shewan 
