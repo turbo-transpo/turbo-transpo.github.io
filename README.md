@@ -2,7 +2,7 @@
 Product and Company name: Turbo-Transpo
     André Azzi      - 300273069
     Diego Ferrot    - 
-    Lourdes Najjar  - 
+    Lourdes Najjar  - 300350308
     Sonja Jovic     - 
     Zachary Shewan  - 300273108
 
