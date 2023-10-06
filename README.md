@@ -9,7 +9,7 @@ Product and Company name: Turbo-Transpo
 
 
 GitHub Organization/Repository Links:
-	Organization link: https://github.com/turbo-transpo
+    Organization link: https://github.com/turbo-transpo
     Repository link: https://github.com/turbo-transpo/turbo-transpo.github.io
     Website link: https://turbo-transpo.github.io/
 
