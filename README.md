@@ -2,7 +2,7 @@
 Product and Company name: Turbo-Transpo
   NAME:           GITHUB USERNAME:           STUDENT NUMBER:
     André Azzi      -  github.com/AndreAzzi05  - 300273069
-    Diego Ferrot    -  github.com/That1Guy272  - 300
+    Diego Ferrot    -  github.com/That1Guy272  - 300******
     Lourdes Najjar  -  github.com/lourdesnaj   - 300350308
     Sonja Jovic     -  github.com/sonja-jovic  - 300360198
     Zachary Shewan  -  github.com/shezac13     - 300273108
