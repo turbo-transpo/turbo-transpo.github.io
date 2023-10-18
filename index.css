@@ -12,7 +12,9 @@ img.logo{
     object-position: top left;
 }
 #menu{
-    height:50px;
-    object-fit: contain;
+    /*transform: rotate(90deg);*/
+    margin-top: 0px;
     float: right;
+    font-weight: 1000;
+    font-size: 40px;
 }
