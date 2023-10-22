@@ -1,10 +1,21 @@
 const rotated = document.getElementById("menu");
-var menubar=document.getElementById("menu");
-menubar.addEventListener("mouseleave", function() {
+var menubar = document.getElementById("menu");
+const pages = document.getElementById("menu-content");
+
+
+
+
+if (pages.addEventListener("mouseleave", function () {
+    pages.style.display = "none";
     rotated.style.transform = "rotate(0deg)";
-    /*close drop menu part here*/
-});
-menubar.addEventListener("mouseenter", function(){
+}));
+else if (addEventListener("click", function () {
+    rotated.style.transform = "rotate(0deg)";
+    pages.style.display = "none";
+}));
+
+menubar.addEventListener("mouseenter", function () {
+    pages.style.display = "block";
     rotated.style.transform = "rotate(90deg)";
     /*add drop menu part here*/
 });
