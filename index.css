@@ -40,5 +40,7 @@ body{
     padding-bottom: calc(0.52*100vw);  /*0.5 was originally the value but changed it to 0.52 for asthetics (just so that the next part of the page isn't seen when home page is loaded)*/
 }
 .scroll{
+    font-size: 20px;
+    margin:20px;
     padding-bottom: 5000px;
 }
