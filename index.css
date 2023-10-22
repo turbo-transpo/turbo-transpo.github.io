@@ -12,9 +12,33 @@ img.logo{
     object-position: top left;
 }
 #menu{
-    /*transform: rotate(90deg);*/
-    margin-top: 0px;
+    position: sticky;
+    top:0;
+    margin-top: 0px;/*
+    padding-right:20px;*/
     float: right;
     font-weight: 1000;
-    font-size: 40px;
+    font-size: 40px; /*2vw*/
+}
+
+body{
+    margin:0px;
+}
+
+.menu-bar{
+    background-color:rgb(229, 229, 229);
+    position: sticky;
+    top:0;
+    padding-bottom: 0;
+}
+.image-scroll{
+    background-attachment: fixed;
+    background-size: 100vw; /*This fills the entire page with the image without squishing it or putting in wrong scale*/
+    margin-top:0px;
+    background-image: url('images/station.jpg');
+    background-repeat: no-repeat;
+    padding-bottom: calc(0.52*100vw);  /*0.5 was originally the value but changed it to 0.52 for asthetics (just so that the next part of the page isn't seen when home page is loaded)*/
+}
+.scroll{
+    padding-bottom: 5000px;
 }
