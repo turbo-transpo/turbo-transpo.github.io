@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Open payments.html",
+            "file": "c:\\Users\\andre\\OneDrive\\Uottawa\\U Ottawa Software\\U-Ottawa\\SEG_2900\\turbo-transpo.github.io\\payments.html"
+        }
+    ]
+}
