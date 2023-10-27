@@ -17,5 +17,6 @@ else if (addEventListener("click", function () {
 menubar.addEventListener("mouseenter", function () {
     pages.style.display = "block";
     rotated.style.transform = "rotate(90deg)";
+    document.getElementById("menu").style.cursor="pointer";
     /*add drop menu part here*/
 });

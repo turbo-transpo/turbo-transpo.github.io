@@ -20,6 +20,37 @@ body {
 }
 
 
+.grid{
+    
+    display:grid;
+    grid-template-columns: 49.5% 49.5%;
+    grid-template-rows: 150px 150px;
+    gap: 0.75%;
+    row-gap: 2%;
+    padding: 1%;
+    background-color: white;
+    padding-bottom: 100px;
+}
+
+.grid div{
+    border:solid;
+    border-radius: 10px;
+    padding: 20px 20px;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.grid h1{
+    margin: 0;
+    border-radius: 10px;
+    background-color: inherit;
+
+    font-size: 2vh;
+}
+
+
+
+
 /*This is all for the menu bar*/
 .menu-bar {
     background-color: rgb(229, 229, 229);
