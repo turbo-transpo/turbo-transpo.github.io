@@ -1,10 +1,16 @@
 body {
     margin: 0px;
 }
-
+/* Global Variables */
+:root {
+    --color-light-blue: #78F9FF;
+    --color-white: #ffffff;
+    --color-light-green: #8CFBAE;
+    --color-dark-green: #095256;
+}
 /*This is all for the menu bar*/
 .menu-bar {
-    background-color: rgb(229, 229, 229);
+    background-color: #e5e5e5;
     position: sticky;
     top: 0;
     padding-bottom: 0;
@@ -63,7 +69,7 @@ img.logo {
     background-color: #ddd;
 }
 
-.header{
+.image{
     background-attachment: fixed;
     background-size: 100vw;
     /*This fills the entire page with the image without squishing it or putting in wrong scale*/
@@ -71,5 +77,93 @@ img.logo {
     background-image: url('images/inside2.png');
     background-repeat: no-repeat;
     padding-bottom: calc(0.52*100vw);
-    /*0.5 was originally the value but changed it to 0.52 for asthetics (just so that the next part of the page isn't seen when home page is loaded)*/
+    
     }
+.header{
+    margin: 0px;
+    font-family: "Onest";
+    font-size: 50px;
+    text-align: center;
+    color: var(--color-light-green);
+    background-color:#095256;
+    max-width: 3000px;
+    padding: 20px
+
+}
+/*Slideshow*/
+.promo_photos{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides{
+    display: none;
+  }
+img.pic1, img.pic2, img.pic3 {
+    vertical-align: middle;
+    width: 100%;
+}
+
+.previous, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color:#095256;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+.previous:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+.active, .dot:hover {
+    background-color: #717171;
+  }
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
