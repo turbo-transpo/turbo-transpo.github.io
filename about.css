@@ -71,11 +71,10 @@ img.logo {
 }
 
 .header{
-    height: 30%;
+    min-height: 30vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/inside2.png);
+    background-image: url(images/inside2.png);
     background-position: center;
     background-size: cover;
     position: relative;
-    back
-}
+    }
