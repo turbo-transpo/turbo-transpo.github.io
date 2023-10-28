@@ -1,13 +1,6 @@
 body {
-    margin: 1px;
+    margin: 0px;
 }
-
-.scroll {
-    font-size: 20px;
-    margin: 20px;
-    padding-bottom: 100px;
-}
-
 
 /*This is all for the menu bar*/
 .menu-bar {
@@ -71,10 +64,12 @@ img.logo {
 }
 
 .header{
-    min-height: 30vh;
-    width: 100%;
-    background-image: url(images/inside2.png);
-    background-position: center;
-    background-size: cover;
-    position: relative;
+    background-attachment: fixed;
+    background-size: 100vw;
+    /*This fills the entire page with the image without squishing it or putting in wrong scale*/
+    margin-top: 0px;
+    background-image: url('images/inside2.png');
+    background-repeat: no-repeat;
+    padding-bottom: calc(0.52*100vw);
+    /*0.5 was originally the value but changed it to 0.52 for asthetics (just so that the next part of the page isn't seen when home page is loaded)*/
     }
