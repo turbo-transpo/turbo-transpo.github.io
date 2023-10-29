@@ -6,33 +6,6 @@
     <title>Payments</title>
 </head>
 <body >
-    <style>
-        table,th,td{
-            padding-bottom: 20px;
-            width:30%;
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
-        h1{
-            text-shadow: 0px 0px 15px skyblue, 0px -5px 5px greenyellow;
-        }
-        h2{
-            font-size: 20px;
-        }
-        h3{
-            font-size: 20px;
-        }
-        div.Cards{
-            position: relative;
-            left: 500px;
-            bottom: 170px;
-        }
-        div.menu-bar{
-            position:fixed;
-            top:0
-        }
-        
-    </style>
         <div class="menu-bar" position: sticky;>
             <a class="logo" href="index.html">
                 <img class="logo" src="images/logo.png" alt="Logo unavailable" style= inline-size:50px>
@@ -110,9 +83,38 @@
             <li>-</li>
             <li>-</li>
         </p>
+    <script>
+        document.getelement.ById("menu-bar").addEventListener("scroll",myFunction)
+    </script>
+        <style>
+            table,th,td{
+                padding-bottom: 20px;
+                width:30%;
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            h1{
+                text-shadow: 0px 0px 15px skyblue, 0px -5px 5px greenyellow;
+            }
+            h2{
+                font-size: 20px;
+            }
+            h3{
+                font-size: 20px;
+            }
+            div.Cards{
+                position: relative;
+                left: 500px;
+                bottom: 170px;
+            }
+            div.menu-bar{
+                position:fixed;
+                top:0
+            }
+        </style>
+    <script>
+        document.getelementById("app").innerHTML
+    </script>
 </body>
 </html>
 
-<script>
-
-</script>
