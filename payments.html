@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first web page</title>
+    <title>Payments</title>
 </head>
-<body>
-        <p id="menu">≡</p>
+<body >
+        <div class="menu-bar" position: sticky;>
+            <a class="logo" href="index.html">
+                <img class="logo" src="images/logo.png" alt="Logo unavailable" style= inline-size:50px>
+                <!--Turbo Transpo-->
         <div class="dropdown" style="float:right">
             <div id="menu-content">
                 <a href="index.html">Home</a>
@@ -17,14 +20,7 @@
             </div>
         </div>
     </div>
-    <style>
-    table,th,td{
-        border: 1px solid black;
-        border-collapse: collapse;
-    }
-</style>
 
-    
     <h1>Choose your plan</h1>
 
     <table>
@@ -37,7 +33,7 @@
         <td> Adult youth   price</td>
         <td> Adult/youth   price</td>
         <td> Adult/youth   price </td>
-        <th></th>
+
         <tr>
         <td>Child   price</td>
         <td>Child   price</td>
@@ -54,8 +50,7 @@
         <td>ID   price</td>
         </tr>
     </table>
-        
-    <h4>The following payment types are accepted:</h4>
+    <h2>The following payment types are accepted:</h2>
     <ul>
         <li>Visa</li>
         <li>Mastercard</li>
@@ -64,7 +59,8 @@
         <li>Google pay</li>
         <li>Apple pay</li>
     </ul>
-        <p><strong>The following cards are not accepted</strong>:</p>
+        <div class="Cards">
+        <h3>The following cards are not accepted:</h3>
         <ul>
             <li>American Express</li>
             <li>Prepaid credit cards</li>
@@ -75,6 +71,50 @@
             <li>Debit</a></li>
         </ul>
         </div>
-        
+        <div class="app">
+        <h4><b>Using our app</b></h4>
+            <p>
+            Download Turbo Transpo rides to purshase and access your tickets
+            </p>
+        </div>
+    <h5>Quick and secure payments</h4>
+        <ol>
+            <li>-</li>
+            <li>-</li>
+            <li>-</li>
+        </p>
+    <script>
+        document.getelement.ById("menu-bar").addEventListener("scroll",myFunction)
+    </script>
+        <style>
+            table,th,td{
+                padding-bottom: 20px;
+                width:30%;
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            h1{
+                text-shadow: 0px 0px 15px skyblue, 0px -5px 5px greenyellow;
+            }
+            h2{
+                font-size: 20px;
+            }
+            h3{
+                font-size: 20px;
+            }
+            div.Cards{
+                position: relative;
+                left: 500px;
+                bottom: 170px;
+            }
+            div.menu-bar{
+                position:fixed;
+                top:0
+            }
+        </style>
+    <script>
+        document.getelementById("app").innerHTML
+    </script>
 </body>
 </html>
+
