@@ -1,3 +1,5 @@
+/* Dropdown menu*/
+
 const rotated = document.getElementById("menu");
 var menubar = document.getElementById("menu");
 const pages = document.getElementById("menu-content");
@@ -21,7 +23,7 @@ menubar.addEventListener("mouseenter", function () {
     /*add drop menu part here*/
 });
 
-/*Slideshow*/
+/*Slideshow of bus pictures*/
 let slideIndex = 1;
 showSlides(slideIndex);
 
