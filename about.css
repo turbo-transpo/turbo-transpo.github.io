@@ -163,6 +163,11 @@ img {
     position:relative;
 
   }
+  .slideshow{
+    position: absolute;
+    width:45%;
+
+  }
 .active, .dot:hover {
     background-color: #717171;
   }
