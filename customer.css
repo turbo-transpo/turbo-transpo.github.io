@@ -6,10 +6,16 @@ body {
     background-attachment: fixed;
     background-size: 100vw;
     margin-top: 0px;
-    /*station.jpg is a placeholder*/
-    background-image: url('images/station.jpg');
+    background-image: url('images/customer-background.jpg');
     background-repeat: no-repeat;
-    padding-bottom: calc(0.26*100vw);
+    padding-bottom: calc(0.26*45vw);
+}
+
+.page-title {
+   font-style: bold;
+   margin-left: 70px;
+   padding-top: 85px;
+   font-size: 24px;
 }
 
 
