@@ -163,6 +163,12 @@ img {
     position:relative;
 
   }
+  .slideshow{
+    position: absolute;
+    left: 20px;
+    width:42%;
+
+  }
 .active, .dot:hover {
     background-color: #717171;
   }
@@ -171,6 +177,15 @@ img {
     animation-name: fade;
     animation-duration: 1.5s;
   }
+
+.description{
+  position:absolute;
+  right: 20px;
+  width:750px;
+  height:10px;
+  font-family: "Onest";
+  font-size: 30px;
+}
 @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
