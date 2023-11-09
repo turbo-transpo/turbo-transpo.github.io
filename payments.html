@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payments</title>
+    <link rel="stylesheet" href="payment.css">
 </head>
-<body >
-        <div class="menu-bar" position: sticky;>
+    <body >
+        <div class="menu-bar">
             <a class="logo" href="index.html">
-                <img class="logo" src="images/logo.png" alt="Logo unavailable" style= inline-size:50px>
+                <img class="logo" src="images/logo.png" alt="Logo unavailable">
                 <!--Turbo Transpo-->
-        <div class="dropdown" style="float:right">
-            <div id="menu-content">
-                <a href="index.html">Home</a>
-                <a href="security.html">Security</a>
-                <a href="payments.html">Payments & Pricing</a>
-                <a href="customer.html">Customer</a>
-                <a href="about.html">About</a>
+            </a>
+            <p id="menu">≡</p>
+            <div class="dropdown" style="float:right">
+                <div id="menu-content">
+                    <a href="index.html">Home</a>
+                    <a href="security.html">Security</a>
+                    <a href="payments.html">Payments & Pricing</a>
+                    <a href="customer.html">Customer</a>
+                    <a href="about.html">About</a>
+                </div>
             </div>
         </div>
-    </div>
 
     <h1>Choose your plan</h1>
 
@@ -72,6 +75,7 @@
         </ul>
         </div>
         <div class="app">
+        <h6>Budjet</h6>
         <h4><b>Using our app</b></h4>
             <p>
             Download Turbo Transpo rides to purshase and access your tickets
@@ -83,6 +87,8 @@
             <li>-</li>
             <li>-</li>
         </p>
+
+
     <script>
         document.getelement.ById("menu-bar").addEventListener("scroll",myFunction)
     </script>
@@ -106,15 +112,16 @@
                 position: relative;
                 left: 500px;
                 bottom: 170px;
+
             }
-            div.menu-bar{
-                position:fixed;
-                top:0
+            body {
+                background-color: #78F9FF;
             }
         </style>
     <script>
         document.getelementById("app").innerHTML
     </script>
+
 </body>
 </html>
 
