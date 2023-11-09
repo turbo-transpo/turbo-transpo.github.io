@@ -186,6 +186,10 @@ img {
   font-family: "Onest";
   font-size: 30px;
 }
+
+.routes{
+  font-family: "Onest";
+}
 @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
