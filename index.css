@@ -99,7 +99,7 @@ body {
 
 .menu-bar{
     display:grid;
-    grid-template-columns: 10% auto 20% 1px;
+    grid-template-columns: 67px auto 20% 1px;
     grid-template-rows: 50px;
     background-color: rgb(229, 229, 229);
     padding-bottom: 0;
@@ -112,6 +112,11 @@ body {
     top: 0;
     padding-bottom: 0;
     width:100vw;
+}
+
+.it2{
+    padding:15px;   
+    padding-left:0; 
 }
 
 .logo {
