@@ -10,8 +10,8 @@ const pages = document.getElementById("menu-content");
 if (pages.addEventListener("mouseleave", function () {
     pages.style.display = "none";
     rotated.style.transform = "rotate(0deg)";
-}));
-else if (addEventListener("click", function () {
+})) {
+} else if (addEventListener("click", function () {
     rotated.style.transform = "rotate(0deg)";
     pages.style.display = "none";
 }));
