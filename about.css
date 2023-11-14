@@ -93,7 +93,7 @@ img.logo {
     color:#e5e5e5;
     transform: translate(-50%, -50%);
     font-family: "Onest";
-    font-size: 8vw;
+    font-size: 10vh;
     text-align: center;
   }
 .header{
@@ -237,25 +237,24 @@ img {
 }
 
 .team_grid{
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 0px;
+  display: flex;
+  grid-gap: 100px;
   margin: auto;
   width:40%;
-  margin: 50px;
+  margin: 25px;
   font-family: "Onest";
   font-size: 2vw;
   color:#095256;
   text-align: center;
-  
+  -ms-flex-align: center;
 }
-.lourdes{
-  grid-column: 1/2;
 
-}
-.andre{
-  grid-column: 2/3;
 
+.rounded {
+  object-fit: cover;
+  border-radius: 60%;
+  height: 14vw;
+  width: 14vw;
 }
 @keyframes fade {
     from {opacity: .4}
