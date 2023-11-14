@@ -82,6 +82,21 @@ div.Cards{
     bottom: 170px;
 
 }
-body {
-    background-color: #78F9FF;
+
+img.picture1 {
+    width: 300px;
+    height: 150px;
+    position: relative;
+    top: -180px;
+}
+h4{
+    position: relative;
+    top: -150px;
+}
+
+img.picture2{
+    width: 300px;
+    height: 150px;
+    position: relative;
+    top: -120px;
 }
