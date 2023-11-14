@@ -1,5 +1,6 @@
 body {
-    margin: 0px;
+    margin: 0;
+    padding: 0
 
 }
 /* Global Variables */
@@ -75,7 +76,7 @@ img.logo {
     background-color: #ddd;
 }
 
-.image{
+.back_image{
     background-attachment: fixed;
     background-size: 100vw;
     /*This fills the entire page with the image without squishing it or putting in wrong scale*/
@@ -83,12 +84,22 @@ img.logo {
     background-image: url('images/inside2.png');
     background-repeat: no-repeat;
     padding-bottom: calc(0.52*100vw);
-    
+
     }
+  .about{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    color:#e5e5e5;
+    transform: translate(-50%, -50%);
+    font-family: "Onest";
+    font-size: 10vw;
+    text-align: center;
+  }
 .header{
     margin: 0px;
     font-family: "Onest";
-    font-size: 50px;
+    font-size: 5vw;
     text-align: center;
     color: var(--color-light-green);
     background-color:#095256;
@@ -107,9 +118,12 @@ img.logo {
 .mySlides{
     display: none;
   }
+
 img {
     vertical-align: middle;
     width: 100%;
+    flex-shrink: 0;
+
 }
 
 .previous, .next {
@@ -134,40 +148,22 @@ img {
     background-color: rgba(0,0,0,0.8);
   }
 
-.text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
-.numbertext {
-    color:white;
-    font-size: 20px;
-    font-family: "Onest";
-    padding: 8px 12px;
-    position: absolute;
-    top:0
-  }
 .dot {
     cursor: pointer;
-    height: 15px;
-    width: 15px;
+    height: 10px;
+    width: 10px;
     margin: 0 2px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-    position:relative;
 
   }
   .slideshow{
-    position: absolute;
-    left: 20px;
-    width:42%;
-
+    grid-column: 1/3;
+    width: 100%;
+    position: static;
+    margin: auto;
   }
 .active, .dot:hover {
     background-color: #717171;
@@ -178,13 +174,34 @@ img {
     animation-duration: 1.5s;
   }
 
+.container{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 50px;
+  max-width: 100%;
+  margin: auto;
+
+}
+
 .description{
-  position:absolute;
-  right: 20px;
-  width:750px;
-  height:10px;
+  grid-column: 3/5;
+  padding:20px;
+  box-sizing: border-box;
   font-family: "Onest";
-  font-size: 30px;
+  font-size: 1.5vw;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+
+.routes{
+  background-color:#8CFBAE;
+  margin: 0px;
+  font-family: "Onest";
+  font-size: 5vw;
+  text-align: right;
+  color:#095256;
 }
 @keyframes fade {
     from {opacity: .4}
