@@ -61,3 +61,27 @@ body{
 #menu-content a:hover {
     background-color: #ddd;
 }
+table,th,td{
+    padding-bottom: 20px;
+    width:30%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+h1{
+    text-shadow: 0px 0px 15px skyblue, 0px -5px 5px greenyellow;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 20px;
+}
+div.Cards{
+    position: relative;
+    left: 500px;
+    bottom: 170px;
+
+}
+body {
+    background-color: #78F9FF;
+}
