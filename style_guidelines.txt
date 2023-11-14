@@ -7,7 +7,7 @@ Specifics:
 
 ◦ Menu bar at the top with the logo in the left top corner
 ◦ Fonts from Google Fonts: Onest, EB Garamond, and Montserrat
-◦ Colors: #FFFFFF, #78F9FF, #8CFBAE
+◦ Colors: #FFFFFF, #78F9FF, #8CFBAE, #095256
 ◦ Black text
 ◦ Button style: no border, rounded/semi-square, not 3d ( if we were to have buttons on the page itself other than inside the menu bar)
 
