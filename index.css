@@ -14,14 +14,13 @@ body {
 }
 
 .scroll {
-    font-size: 20px;
     margin: 20px;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
 }
 
 .description1{
-    font-size:2vh;
-    font-family:'Lucida Sans';
+    font-size:2.5vh;
+    font-family:"Onest";
     text-align:justify; /*aligns the all end of lines to be the same*/
 }
 
@@ -98,6 +97,8 @@ body {
 }
 
 .menu-bar{
+    position:sticky;
+    top:0;
     display:grid;
     grid-template-columns: 67px auto 20% 1px;
     grid-template-rows: 50px;
@@ -164,7 +165,6 @@ img.logo {
 
 .dropdown {
     padding-top: 40px;
-    padding-right: 155px;
     /*display: inline-block;*/
 }
 
