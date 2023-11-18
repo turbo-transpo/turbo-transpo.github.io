@@ -1,4 +1,7 @@
 /*MENU AND MAIN IMAGE*/
+.div{
+    background-color: aqua;
+}
 
 .image-scroll {
     background-attachment: fixed;
