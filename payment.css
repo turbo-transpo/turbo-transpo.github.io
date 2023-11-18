@@ -24,7 +24,7 @@ h3{
 }
 div.Cards{
     position: relative;
-    left: 500px;
+    padding-left: 500px;
     bottom: 170px;
 
 }
@@ -60,7 +60,7 @@ img.picture3{
     top: -190px;
     width: 500px;
     height: 300px;
-    left: 700px
+    float:right;
 }
 h6{
     top:300px;
