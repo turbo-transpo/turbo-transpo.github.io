@@ -1,25 +1,4 @@
-/*MENU AND MAIN IMAGE*/
-.div{
-    background-color: aqua;
-}
-
-.image-scroll {
-    background-attachment: fixed;
-    background-size: 100vw;
-    /*This fills the entire page with the image without squishing it or putting in wrong scale*/
-    margin-top: 0px;
-    background-image: url('images/station.jpg');
-    background-repeat: no-repeat;
-    padding-bottom: calc(0.52*100vw);
-    /*0.5 was originally the value but changed it to 0.52 for asthetics (just so that the next part of the page isn't seen when home page is loaded)*/
-}
-
-.scroll {
-    margin: 20px;
-    padding-bottom: 30px;
-}
-
-
+/*MENU BAR*/
 .menu-bar p{
     margin:0;
     font-weight:bolder;
