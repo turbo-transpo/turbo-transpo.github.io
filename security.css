@@ -63,15 +63,20 @@ img.logo {
 h1 {
     color: black;
     text-shadow: 0px 0px 5px #7CD8DE, 0px -5px 5px #7FE39D;
+    text-align: center;
 }
 
 h2 {
     color: black;
     font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
 }
 
 h3 {
     color: black;
+    text-align: center;
+    text-decoration: underline;
 }
 
 .feature-container {
