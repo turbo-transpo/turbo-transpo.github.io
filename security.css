@@ -1,8 +1,10 @@
 body {
-    background-color: white;
-    color: black;
     margin: 0;
-    font-family: Arial, sans-serif;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: ;
+
 }
 
 .menu-bar {
@@ -10,6 +12,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
+    font-size:22px;
 }
 
 .logo {
@@ -58,16 +61,23 @@ img.logo {
 }
 
 h1 {
-    color: #095256;
+    color: black;
     text-shadow: 0px 0px 5px #7CD8DE, 0px -5px 5px #7FE39D;
+    text-align: center;
 }
 
 h2 {
-    color: #7CD8DE;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+
 }
 
 h3 {
-    color: #7FE39D;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
 }
 
 .feature-container {
@@ -97,4 +107,62 @@ h3 {
 .feature p {
     margin-top: 10px;
     text-align: center;
+}
+
+.image {
+    background-image: url('top.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 75vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4vw;
+    margin: 0;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    text-shadow: 2px 2px 10px black;
+    text-decoration: underline;
+    padding: 20px;
+    
+    display: inline-block;
+    font-family: "Onest";
+    font-size: 9vw;
+    text-align: center;
+    white-space: nowrap;
+
+}
+
+.section-title-bg {
+    background-color: #78F9FF; 
+    padding: 55px; 
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    text-decoration: underline;
+    margin: 0; 
+}
+
+
+.section-title-bg-2 {
+    background-color: #8CFBAE; 
+    padding: 55px; 
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    text-decoration: underline;
+    margin: 0; 
 }
