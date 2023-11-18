@@ -7,14 +7,15 @@ let menuopen = false;
 
 document.getElementById("menu").style.cursor = "pointer";
 menubar.addEventListener("click", function () {
-    if (menuopen) {
-        pages.style.display = "none";
-        rotated.style.transform = "rotate(0deg)";
-        menuopen = false;
-    } else {
+    if (menuopen==true){
+        pages.style.display="none";
+        rotated.style.transform="rotate(0deg)";
+        menuopen=false;
+    }
+    else if (menuopen==false){
         pages.style.display = "block";
         rotated.style.transform = "rotate(90deg)";
-        menuopen = true;
+        menuopen=true;
     }
 });
 

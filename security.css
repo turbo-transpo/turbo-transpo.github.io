@@ -71,6 +71,7 @@ h2 {
     font-size: 40px;
     text-align: center;
     text-decoration: underline;
+
 }
 
 h3 {
@@ -143,4 +144,25 @@ h3 {
     text-align: center;
     white-space: nowrap;
 
+}
+
+.section-title-bg {
+    background-color: #78F9FF; 
+    padding: 55px; 
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    text-decoration: underline;
+    margin: 0; 
+}
+
+
+.section-title-bg-2 {
+    background-color: #8CFBAE; 
+    padding: 55px; 
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    text-decoration: underline;
+    margin: 0; 
 }
