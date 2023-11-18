@@ -2,6 +2,8 @@ body {
     margin: 0;
     color: black;
     font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: ;
 }
 
 .menu-bar {
@@ -9,6 +11,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
+    font-size:22px;
 }
 
 .logo {
@@ -57,16 +60,16 @@ img.logo {
 }
 
 h1 {
-    color: #095256;
+    color: black;
     text-shadow: 0px 0px 5px #7CD8DE, 0px -5px 5px #7FE39D;
 }
 
 h2 {
-    color: #7CD8DE;
+    color: black;
 }
 
 h3 {
-    color: #7FE39D;
+    color: black;
 }
 
 .feature-container {
