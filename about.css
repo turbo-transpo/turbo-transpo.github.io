@@ -274,14 +274,14 @@ img {
 .footer{
   display: grid;
   grid-template-columns: 10fr 35fr;
-  background-color: #2196F3;
+  background-color: #095256;
   padding: 10px;
+  font-size: 1.7vw;
 }
 .grid-item1, .grid-item2{
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 60px;
-  font-size: 2vw;
   text-align: center;
 }
 
@@ -289,7 +289,19 @@ img {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 5px;
-  font-size: 2vw;
   text-align: center;
 
+}
+
+.grid-item4{
+  display: grid;
+  grid-template-columns: 10fr 10fr 10fr;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  font-size: 1.5vw;
+}
+
+.twitter_pic, .insta_pic, .facebook_pic{
+  width: 3vh;
+  height: 3vh
 }
