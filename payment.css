@@ -26,7 +26,6 @@ div.Cards{
     position: relative;
     padding-left: 500px;
     bottom: 170px;
-
 }
 img.picture1 {
     width: 300px;
@@ -69,12 +68,30 @@ h5{
     position:relative;
     top: -300px;
 }
-h7{
-    position: relative;
-    top:-100px;   
-}
-h8{
-    position: absolute;
-    top: -450px;
-    float:right;
-}
+
+*{
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .row{
+    margin-top: -70px;
+  }
+
+  p2{
+    font-size: 25px;
+  }
+  p3{
+    font-size: 25px;
+  }
