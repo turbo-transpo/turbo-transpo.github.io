@@ -65,8 +65,16 @@ img.picture3{
 h6{
     top:300px;
 }
-
 h5{
     position:relative;
     top: -300px;
+}
+h7{
+    position: relative;
+    top:-100px;   
+}
+h8{
+    position: absolute;
+    top: -450px;
+    float:right;
 }
