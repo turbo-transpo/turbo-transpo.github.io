@@ -14,7 +14,7 @@ h1 {
 
 h2 {
     color: black;
-    font-size: 40px;
+    font-size: 22px;
     text-align: center;
     text-decoration: underline;
 
@@ -27,6 +27,8 @@ h3 {
 }
 
 .feature-container {
+    max-width: 1310px;
+    margin: 0 auto;
     display: flex;
     align-items: flex-start;
     gap: 20px;
@@ -143,29 +145,26 @@ h3 {
     padding: 55px; 
     text-align: center;
     color: black;
-    font-size: 40px;
+    font-size: 24px;
     text-decoration: underline;
     margin: 0;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     font-family: 'Onest', sans-serif;
-    font-size: 22px;
     font-weight: bold;
 }
-
 
 .section-title-bg-2 {
     background-color: #8CFBAE; 
     padding: 55px; 
     text-align: center;
     color: black;
-    font-size: 40px;
+    font-size: 24px;
     text-decoration: underline;
     margin: 0; 
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     font-family: 'Onest', sans-serif;
-    font-size: 22px;
     font-weight: bold;
 }
 section > p{
@@ -182,4 +181,21 @@ section > p{
 .feature2:hover {
     transform: scale(1.12);
     transition: transform 0.5s ease; 
+}
+
+.text-container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section-content {
+    font-family: 'Onest', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align:justify;
+}
+
+.section-content .text-container {
+    padding-left: 20px;
+    padding-right: 20px;
 }
