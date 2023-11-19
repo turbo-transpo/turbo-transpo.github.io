@@ -3,14 +3,29 @@ body {
 }
 
 .image-scroll {
-    background-attachment: fixed;
-    background-size: 100vw;
     /*This fills the entire page with the image without squishing it or putting in wrong scale*/
-    margin-top: 0px;
-    background-image: url('images/station.jpg');
-    background-repeat: no-repeat;
-    padding-bottom: calc(0.52*100vw);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/station.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 83vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     /*0.5 was originally the value but changed it to 0.52 for asthetics (just so that the next part of the page isn't seen when home page is loaded)*/
+}
+.turbo_trans{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    color:#e5e5e5;
+    transform: translate(-50%, -50%);
+    font-family: "Onest";
+    font-size: 10vw;
+    padding:20px;
+    text-align: center;
+    white-space: nowrap;
 }
 
 .scroll {
