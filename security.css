@@ -1,64 +1,10 @@
 body {
     margin: 0;
     color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
-    font-weight: bold;
+
 
 }
 
-.menu-bar {
-    background-color: #e5e5e5;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    font-size:22px;
-}
-
-.logo {
-    position: sticky;
-    top: 0;
-    font-style: none;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-img.logo {
-    height: 50px;
-    object-fit: contain;
-    object-position: top left;
-}
-
-#menu {
-    position: absolute;
-    top: 0;
-    right: 10px;
-    margin-right: 20px;
-    float: right;
-    font-weight: 1000;
-    font-size: 40px;
-}
-
-#menu-content {
-    display: none;
-    background-color: rgb(229, 229, 229);
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    position: absolute;
-    top: 40px;
-}
-
-#menu-content a {
-    color: black;
-    display: block;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 20px 30px;
-}
-
-.dropdown {
-    padding-top: 40px;
-    padding-right: 155px;
-}
 
 h1 {
     color: black;
@@ -113,6 +59,9 @@ h3 {
     text-align: center;
     background-color: #78F9FF;
     display: inline;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 
@@ -145,6 +94,9 @@ h3 {
     text-align: center;
     background-color: #8CFBAE;
     display: inline;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 
@@ -196,6 +148,9 @@ h3 {
     margin: 0;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 
@@ -209,6 +164,14 @@ h3 {
     margin: 0; 
     border-top: 3px solid black;
     border-bottom: 3px solid black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+section > p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .feature:hover {
