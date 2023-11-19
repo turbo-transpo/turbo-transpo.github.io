@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Security</title>
-    <link rel="stylesheet" type="text/css" href="security.css">
+    <link rel="stylesheet" href="security.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Onest">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <div class="menu-bar">
-        <a class="logo" href="index.html">
+        <div class="it1">
+            <a class="logo" href="index.html">
             <img class="logo" src="images/logo.png" alt="Logo unavailable">
-        </a>
-        <p id="menu">≡</p>
+            </a>
+        </div>
+
+        <div class="it2">
+            <p>Turbo Transpo</p>
+        </div>
         <div class="dropdown" style="float:right">
             <div id="menu-content">
                 <a href="index.html">Home</a>
@@ -21,15 +28,24 @@
                 <a href="about.html">About</a>
             </div>
         </div>
+        <div class="it3">
+            <p id="menu">≡</p>
+        </div>
+    
     </div>
      <!-- The header with the slogan-->
-    <div class="image"></div>
-    <header>
-        <h1 style="color: #095256;">Security Features</h1>
-    </header>
+     <div class="image">
+        <div class="overlay-text">
+            <p>SECURITY FEATURES</p>
+        </div>
+    
+        <div class="back_image"></div>
+    </div>
 
     <section>
-        <h2 style="color: #7CD8DE;">Technology and Safety Features</h2>
+        <br>
+        <h2 class="section-title-bg">TECHNOLOGY AND SAFETY FEATURES</h2>
+        <br>
         <div class="feature-container">
             <div class="feature">
                 <img src="icon1.jpg" alt="Self driving">
@@ -45,28 +61,29 @@
             </div>
         </div>
         <p>Our autonomous buses have cutting-edge technology to ensure passenger safety and convenience. Real-time location tracking and occupancy monitoring help optimize routes and maintain safe passenger levels. Our buses reduce emissions and environmental impact.</p>
-        <br>
-        <br>
-        <br>
-        <br>
+        
     </section>
 
     <section>
-        <h2 style="color: #7FE39D;">Statistics on Safety</h2>
+        <h2 class="section-title-bg-2">STATISTICS ON SAFETY</h2>
+        <br>
         <div class="feature-container">
-            <div class="feature">
+            <div class="feature2">
                 <img src="icon4.jpg" alt="No accidents during test">
                 <p>No accidents during test</p>
             </div>
-            <div class="feature">
-                <img src="icon5.jpg" alt="15% reduction in carbon emissions compared to normal other buses">
-                <p>15% reduction in carbon emissions compared to normal other buses</p>
+            <div class="feature2">
+                <img src="icon5.jpg" alt="15% reduction in carbon emissions">
+                <p>15% less carbon emissions</p>
             </div>
-            <div class="feature">
+            <div class="feature2">
                 <img src="icon6.jpg" alt="Always on time">
                 <p>Always on time</p>
+                
             </div>
         </div>
+        <br>
+        <br>
     </section>
     <script src="security.js"></script>
 </body>

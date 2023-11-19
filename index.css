@@ -3,25 +3,39 @@ body {
 }
 
 .image-scroll {
-    background-attachment: fixed;
-    background-size: 100vw;
     /*This fills the entire page with the image without squishing it or putting in wrong scale*/
-    margin-top: 0px;
-    background-image: url('images/station.jpg');
-    background-repeat: no-repeat;
-    padding-bottom: calc(0.52*100vw);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/station.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 83vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     /*0.5 was originally the value but changed it to 0.52 for asthetics (just so that the next part of the page isn't seen when home page is loaded)*/
+}
+.turbo_trans{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    color:#e5e5e5;
+    transform: translate(-50%, -50%);
+    font-family: "Onest";
+    font-size: 10vw;
+    padding:20px;
+    text-align: center;
+    white-space: nowrap;
 }
 
 .scroll {
-    font-size: 20px;
     margin: 20px;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
 }
 
 .description1{
-    font-size:2vh;
-    font-family:'Lucida Sans';
+    font-size:2.5vh;
+    font-family:"Onest";
     text-align:justify; /*aligns the all end of lines to be the same*/
 }
 
@@ -29,89 +43,98 @@ body {
 
 .grid{
     display:grid;
-    grid-template-columns: 49.5% 49.5%;
-    grid-template-rows: 200px 200px;
-    gap: 0.75%;
-    row-gap: 2%;
-    padding: 1%;
+    grid-template-columns: 22.5vw 22.5vw 22.5vw 22.5vw;
+    grid-template-rows: 22.5vw;
+    gap: 2vw;
+    padding: 2vw;
     background-color: white;
     padding-bottom: 100px;
 }
 
 .grid a:hover{
     background-color: rgb(229, 229, 229);
+    width: 22.5vw;
+    height: 22.5vw;
     
 }
 
-.hovered:hover h2{
+.hovered:hover h1{
     animation:fadeIn 1.5s;
     display: block;
 }
 
 @keyframes fadeIn {
-    0% {opacity:0;}
+    0% {opacity: 0;}
+    50%{padding-top: 1vw;}
     100%{opacity: 1;}
-
 }
 
 
 .grid a{
+    width: 18vw;
+    height: 18vw;
+    
+    display:block;
+    margin:auto;
+
+
     border:solid;
     border-color: black;
-    border-radius: 10px;
-    padding: 10px 10px;
+    border-radius: 1000px;/*
+    padding: 10px 10px;*/
     font-size: 30px;
     background-color: rgb(255, 255, 255);
     text-decoration: none;
     color: black;
+
+    transition: height 1s,width 1s ;
+
 }
 
-.grid-arrow{
-    display: none;
-    font-size: 3vh;
-    font-weight:bolder;
-    font-family:Calibri;
-    float: right;
-    /*padding-top: 10px;*/
-}/*Need to have a padding to have the arrow at the bottom of the grid element*/
 
 .grid h1{
+    display:none;
+    padding-top: 4.5vw;
     margin: 0;
     border-radius: 10px;
     background-color: inherit;
-
-    font-size: 2vh;
+    text-align: center;
+    font-size: 2.5vw;
+    font-family:Calibri;
 }
 
+
 .grid img{
-    padding-right: 10px; 
-    float: left;
-    height: 50px;
+    padding-top:3vw;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 7vw;
     object-fit: contain;
+    /*transition-*/
 }
 
 .menu-bar p{
     margin:0;
     font-weight:bolder;
     font-style: Calibri;
-    /*display:ruby-text;*/
 }
 
 .menu-bar{
+    position:sticky;
+    top:0;
     display:grid;
-    grid-template-columns: 10% auto 20% 1px;
+    grid-template-columns: 67px auto 20% 1px;
     grid-template-rows: 50px;
     background-color: rgb(229, 229, 229);
     padding-bottom: 0;
 }
 
 /*This is all for the menu bar*/
-.menu-basr {
-    background-color: rgb(229, 229, 229);
-    position: sticky;
-    top: 0;
-    padding-bottom: 0;
-    width:100vw;
+
+.it2{
+    padding:15px;   
+    padding-left:0; 
 }
 
 .logo {
@@ -159,7 +182,6 @@ img.logo {
 
 .dropdown {
     padding-top: 40px;
-    padding-right: 155px;
     /*display: inline-block;*/
 }
 

@@ -5,7 +5,6 @@ const pages = document.getElementById("menu-content");
 
 
 
-
 if (pages.addEventListener("mouseleave", function () {
     pages.style.display = "none";
     rotated.style.transform = "rotate(0deg)";
