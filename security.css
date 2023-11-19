@@ -213,10 +213,10 @@ h3 {
 
 .feature:hover {
     transform: scale(1.12);
-    transition: transform 0.3s ease; 
+    transition: transform 0.5s ease; 
 }
 
 .feature2:hover {
     transform: scale(1.12);
-    transition: transform 0.3s ease; 
+    transition: transform 0.5s ease; 
 }
