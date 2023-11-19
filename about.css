@@ -49,6 +49,7 @@ body {
     position: relative;
     margin: auto;
     left: 40px;
+    z-index: 0;
 }
 
 .mySlides{
