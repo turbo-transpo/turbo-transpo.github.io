@@ -12,7 +12,7 @@ body {
 }
 
 .image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/inside2.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/waiting_busstop.jpeg');
   opacity:95%;
   background-size: cover;
   background-position: center;
@@ -23,7 +23,7 @@ body {
   flex-direction: column;
   justify-content: center;
   }
-.about{
+.features{
 position:absolute;
 top:50%;
 left: 50%;
@@ -34,4 +34,114 @@ font-size: 10vw;
 padding:20px;
 text-align: center;
 white-space: nowrap;
+  }
+
+/*footer*/
+
+.footer{
+    display: grid;
+    grid-template-columns: 10fr 35fr;
+    background-color: #095256;
+    padding: 10px;
+    font-size: 1.7vw;
+    font-family: "Onest";
+  }
+  .grid-item1, .grid-item2{
+  
+  
+    padding: 60px;
+    text-align: center;
+  }
+  
+  .grid-item3,.grid-item4{
+  
+  
+    padding: 5px;
+    text-align: center;
+  
+  }
+  
+  .grid-item1{
+    text-align: left;
+    color: white;
+    border-right: 1px solid white;
+  }
+
+  .grid-item2{
+    color: white;
+  }
+  
+  .grid-item3{
+    font-size: 2vh;
+    text-align: left;
+    padding-left: 60px;
+    padding-top: 35px;
+    color: white;
+    border-right: 1px solid white;
+  }
+  
+  .grid-item4{
+    display: grid;
+    grid-template-columns: 10fr 10fr 10fr;
+    padding: 10px;
+    font-size: 1.5vw;
+    color: white;
+  }
+  
+  .twitter_pic{
+    width: 5vh;
+    height: 5vh
+  }
+  
+  .insta_pic,.facebook_pic{
+    width: 5vh;
+    height: 5vh;
+  }
+  
+  input{
+    background-color: #e5e5e5;
+    border: 3px solid #717171;;
+    border-radius: 10px;
+    font-size: 3vh;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    text-align: center;
+    margin: 0.3rem 0 1rem 0;
+    transition-duration: var(--button-fade-time);
+  }
+  
+  input[type="email" i] {
+    writing-mode: horizontal-tb !important;
+    padding-block: 1px;
+    padding-inline: 2px;
+  }
+  
+  label {
+    cursor: default;
+  }
+  
+  button {
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  button {
+    background-color: var(--color-light-green);
+    color: #095256;
+    border: 3px solid #e5e5e5;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    text-align: center;
+    margin: 0.3rem 0 1rem 0;
+    transition-duration: var(--button-fade-time);
+  }
+  .grid-item1 > a:link{
+    color: white;
+  }
+  
+  .grid-item1 > a:hover{
+    color: white;
+  }
+  
+  .grid-item1 > a:visited{
+    color: #e5e5e5;
   }
