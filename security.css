@@ -59,7 +59,7 @@ h3 {
     text-align: center;
     background-color: #78F9FF;
     display: inline;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Onest', sans-serif;
     font-size: 22px;
     font-weight: bold;
 }
@@ -94,7 +94,7 @@ h3 {
     text-align: center;
     background-color: #8CFBAE;
     display: inline;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Onest', sans-serif;
     font-size: 22px;
     font-weight: bold;
 }
@@ -115,7 +115,7 @@ h3 {
 }
 
 .image h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Onest', sans-serif;
     font-size: 4vw;
     margin: 0;
 }
@@ -148,7 +148,7 @@ h3 {
     margin: 0;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Onest', sans-serif;
     font-size: 22px;
     font-weight: bold;
 }
@@ -164,12 +164,12 @@ h3 {
     margin: 0; 
     border-top: 3px solid black;
     border-bottom: 3px solid black;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Onest', sans-serif;
     font-size: 22px;
     font-weight: bold;
 }
 section > p{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Onest', sans-serif;
     font-size: 22px;
     font-weight: bold;
 }
