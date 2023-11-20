@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    background-color: #095256;
 }
 
 .image-scroll {
@@ -10,15 +11,16 @@ body {
     background-image: url('images/station.jpg');
     background-repeat: no-repeat;
     padding-bottom: calc(0.52*100vw);
+    background-color: #095256;
     /*0.5 was originally the value but changed it to 0.52 for asthetics (just so that the next part of the page isn't seen when home page is loaded)*/
 }
 
-.scroll {
-    margin: 20px;
-    padding-bottom: 30px;
-}
 
 .description1{
+    margin:0;
+    color:#8CFBAE;
+    background-color: #095256 ;
+    padding:5vw; 
     font-size:2.5vh;
     font-family:"Onest";
     text-align:justify; /*aligns the all end of lines to be the same*/
@@ -27,13 +29,12 @@ body {
 
 
 .grid{
+    background-color: #095256;
     display:grid;
     grid-template-columns: 22.5vw 22.5vw 22.5vw 22.5vw;
     grid-template-rows: 22.5vw;
     gap: 2vw;
-    padding: 2vw;
-    background-color: white;
-    padding-bottom: 100px;
+    margin: 2vw;
 }
 
 .grid a:hover{
