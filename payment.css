@@ -43,6 +43,7 @@ table,th,td{
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
+    table-layout: fixed;
 }
 tr:hover{background-color: aquamarine;}
 h1{
@@ -55,7 +56,7 @@ h1{
 h3{
     font-size:25px ;
     color:#095256;
-    margin-top: -80px;
+    margin-top: -65.5px;
     padding-left: 90px;
     text-decoration: overline;
 }
