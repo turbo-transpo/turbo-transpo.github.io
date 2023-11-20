@@ -17,16 +17,11 @@ menubar.addEventListener("click", function () {
         menuopen=true;
     }
 });
-/*
-if (pages.addEventListener("mouseleave", function () {
-    pages.style.display = "none";
-    rotated.style.transform = "rotate(0deg)";
-}));
-else if (addEventListener("clicfk", function () {
-    rotated.style.transform = "rotate(0deg)";
-    pages.style.display = "none";
-}));
 
-menubar.addEventListener("click", function () {
-    /*add drop menu part here
-});*/
+
+    
+
+function changeimg(imgclass,name){
+    const image=document.getElementById(imgclass);
+    image.src=name;
+}

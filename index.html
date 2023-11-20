@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turbo Transpo</title>
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Onest" >
 </head>
@@ -24,7 +25,7 @@
                 <a href="index.html">Home</a>
                 <a href="security.html">Security</a>
                 <a href="payments.html">Payments & Pricing</a>
-                <a href="customer.html">Customer</a>
+                <a href="customer.html">Features</a>
                 <a href="about.html">About</a>
             </div>
         </div>
@@ -44,15 +45,15 @@
 <!--Description of turbo transpo and what it is-->
     <div class="scroll">
         <h1>Title</h1>
+        <h1>What is our goal?</h1>
         <p class="description1">
             Our product is a solution offered to plublic transportation organisations to increase 
             efficiency, reliability and costumer satisfaction. Our product will increase the efficiency of an 
             organisations current transit system by adding self driving busses, adding our app to the 
             transit network and integrating our features into the network to keep riders informed and 
             safe.
-            
-            <br>
-            <br>
+        </p>    
+        <p class="description1">
 
             Turbo Transpo is a new company seeking to find its place in the city of Ottawa, Canada.
             Turbo Transpo is a new alternative to the current system OC transpo. We know the struggles the citizens incounter
@@ -61,38 +62,87 @@
     </div>
     
 
-
+<!--buttons that will bring you to all our pages-->
+    <h1 class="title">Want to learn more?</h1>
     <div class="grid">
-        <a class="hovered" href="payments.html">
+        <a class="hovered" onmouseleave="changeimg('img1','images/b_moneyicon.png')" onmouseover="changeimg('img1','images/w_moneyicon.png')"  href="payments.html">
             <div class="item1">
-                <img src="images/moneyicon.png" alt="Not available">
+                <img id="img1" src="images/b_moneyicon.png" alt="Not available">
                 <h1>Pricing </h1>
             </div>
         </a>
 
-        <a class="hovered" href="security.html">
+        <a class="hovered" onmouseleave="changeimg('img2','images/b_lock.png')" onmouseover="changeimg('img2','images/w_lock.png')"  href="security.html">
             <div class="item2">
-                <img src="images/lock.png" alt="Not available">
+                <img id="img2" src="images/b_lock.png" alt="Not available">
                 <h1>Security</h1>
             </div>
         </a> 
 
-        <a class="hovered" href="customer.html">
+        <a class="hovered" onmouseleave="changeimg('img3','images/b_customer.png')" onmouseover="changeimg('img3','images/w_customer.png')"  href="customer.html">
             <div class="item3">
-                <img src="" alt="">
-                <h1>Customer</h1>
+                <img id="img3"src="images/b_customer.png" alt="Not available">
+                <h1>Features</h1>
             </div>
         </a>
 
         <a class="hovered" href="about.html">
             <div class="item4">
-                <img src="images/SEG2900-logo-2.png" alt="none" >
+                <img src="images/SEG2900-logo-2.png" alt="Not available" >
                 <h1>About Us</h1>
             </div>
         </a>
     </div>
-    <div style="padding-bottom: 200px;">
-        <!--add copy right stuff at btm-->
+
+
+
+    <!-- FOOTER -->
+    <dev class="footer">
+        <div class="grid-item1"> 
+            <a href="https://forms.gle/umMSgbidwgcHwt5R6">Feedback</a>
+            <br>
+            <br>
+            <a href="privacypolicy.html">Privacy Policy</a>
+        </div>
+        <div class="grid-item2"> 
+             <form>
+                <label for="fname">Sign up for the updates to get the latest news</label><br>
+                <input type="email" id="email_add" name="email_address" placeholder="Please enter your email"> <br>
+                <span id="clear" class="clear_it"></span>
+             </form>
+
+            <a href="about.html">
+                <button>
+                    Submit
+                </button>
+            </a>
+                 
+        </div>
+        <div class="grid-item3"> 
+            © Turbo Transpo
+        </div>
+
+        <div class="grid-item4"> 
+            <div class="twitter">
+                <a style="text-decoration: none;" href="https://twitter.com/TurboTranspo">
+                    <img class= "twitter_pic" src="./images/twitter_pic.png" > 
+                </a> @TurboTranspo
+            </div>
+            <div class="instagram">
+                <a style="text-decoration: none;" href="https://www.instagram.com/turbotranspo123/">
+                    <img class= "insta_pic" src="./images/instagram_pic.png" > 
+                </a> @turbotranspo123
+            </div>
+            <div class="facebook">
+                <a style="text-decoration: none;" href="https://www.facebook.com/TurboTranspo/">
+                    <img class= "facebook_pic" src="./images/facebook_pic.png" > 
+                </a> @TurboTranspo
+            </div>
+
+        </div>
+        
+    </dev>
+
     </div>
 </body>
 <script src="index.js"></script>

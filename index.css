@@ -1,7 +1,6 @@
 body {
     margin: 0px;
-    background-color: #095256;
-    font-family: "Onest";
+    font-family:onest;
 }
 
 .image-scroll {
@@ -30,30 +29,53 @@ body {
     white-space: nowrap;
 }
 
+.scroll{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.scroll h1{
+    text-align: center;
+    padding:10px;
+    margin:0;
+    color: #095256;
+    background-color:#8CFBAE;
+    object-position: auto;
+    font-size: 4vh;
+}
 
 .description1{
     margin:0;
-    color:#8CFBAE;
-    background-color: #095256 ;
+    color:black;
+    background-color: white ;
     padding:5vw; 
     font-size:2.5vh;
     font-family:"Onest";
     text-align:justify; /*aligns the all end of lines to be the same*/
 }
 
-
+.title{
+    text-align: center;
+    padding:10px;
+    margin:0;
+    font-size: 4vh;
+    background-color: #095256;
+    color:#8CFBAE;
+}
 
 .grid{
-    background-color: #095256;
+    background-color: white;
     display:grid;
     grid-template-columns: 22.5vw 22.5vw 22.5vw 22.5vw;
     grid-template-rows: 22.5vw;
     gap: 2vw;
-    margin: 2vw;
+    padding: 2vw;
+    padding-bottom: 15vw;
 }
 
 .grid a:hover{
-    background-color: rgb(229, 229, 229);
+    background-color:#095256;/*
+    background-color: rgb(229, 229, 229);*/
     width: 22.5vw;
     height: 22.5vw;
     
@@ -81,12 +103,10 @@ body {
 
     border:solid;
     border-color: black;
-    border-radius: 1000px;/*
-    padding: 10px 10px;*/
-    font-size: 30px;
+    border-radius: 1000px;
     background-color: rgb(255, 255, 255);
     text-decoration: none;
-    color: black;
+    color: white;
 
     transition: height 1s,width 1s ;
 
@@ -118,7 +138,7 @@ body {
 .menu-bar p{
     margin:0;
     font-weight:bolder;
-    font-style: Calibri;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .menu-bar{
