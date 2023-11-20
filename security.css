@@ -1,3 +1,11 @@
+:root {
+    --color-light-blue: #78F9FF;
+    --color-white: #ffffff;
+    --color-light-green: #8CFBAE;
+    --color-dark-green: #095256;
+}
+
+
 body {
     margin: 0;
     color: black;
@@ -199,3 +207,135 @@ section > p{
     padding-left: 20px;
     padding-right: 20px;
 }
+
+  /*FOOTER SECTION*/
+
+  .footer{
+    display: grid;
+    grid-template-columns: 10fr 35fr;
+    background-color: #095256;
+    padding: 10px;
+    font-size: 1.7vw;
+    font-family: "Onest";
+  }
+  .grid-item1, .grid-item2{
+  
+  
+    padding: 60px;
+    text-align: center;
+  }
+  
+  .grid-item3,.grid-item4{
+  
+  
+    padding: 5px;
+    text-align: center;
+  
+  }
+  
+  .grid-item1{
+    text-align: left;
+    color: white;
+    border-right: 1px solid white;
+  }
+  
+  .grid-item1 > a:link{
+    color: white;
+  }
+  
+  .grid-item1 > a:hover{
+    color: white;
+  }
+  
+  .grid-item1 > a:visited{
+    color: #e5e5e5;
+  }
+  
+  .grid-item2{
+    color: white;
+  }
+  
+  .grid-item3{
+    font-size: 2vh;
+    text-align: left;
+    padding-left: 60px;
+    padding-top: 10px;
+    color: white;
+    border-right: 1px solid white;
+  }
+  
+  .grid-item4{
+    display: grid;
+    grid-template-columns: 10fr 10fr 10fr;
+    padding: 10px;
+    font-size: 1.5vw;
+    color: white;
+  }
+  
+  .grid-item4 > .twitter,
+  .grid-item4 > .instagram,
+  .grid-item4 > .facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: -5px;
+}
+
+
+
+
+.twitter_pic,
+.insta_pic,
+.facebook_pic {
+  margin-right: 5px;
+}
+
+
+
+  .twitter_pic{
+    width: 5vh;
+    height: 5vh
+  }
+  
+  .insta_pic,.facebook_pic{
+    width: 5vh;
+    height: 5vh;
+  }
+  
+  input{
+    background-color: #e5e5e5;
+    border: 3px solid #717171;;
+    border-radius: 10px;
+    font-size: 3vh;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    text-align: center;
+    margin: 0.3rem 0 1rem 0;
+    transition-duration: var(--button-fade-time);
+  }
+  
+  input[type="email" i] {
+    writing-mode: horizontal-tb !important;
+    padding-block: 1px;
+    padding-inline: 2px;
+  }
+  
+  label {
+    cursor: default;
+  }
+  
+  button {
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  button {
+    background-color: var(--color-light-green);
+    color: #095256;
+    border: 3px solid #e5e5e5;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    text-align: center;
+    margin: 0.3rem 0 1rem 0;
+    transition-duration: var(--button-fade-time);
+  }
