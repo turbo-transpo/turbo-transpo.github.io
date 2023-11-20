@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Security</title>
-    <link rel="stylesheet" type="text/css" href="security.css">
+    <link rel="stylesheet" href="security.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Onest">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <div class="menu-bar">
-        <a class="logo" href="index.html">
+        <div class="it1">
+            <a class="logo" href="index.html">
             <img class="logo" src="images/logo.png" alt="Logo unavailable">
-        </a>
-        <p id="menu">≡</p>
+            </a>
+        </div>
+
+        <div class="it2">
+            <p>Turbo Transpo</p>
+        </div>
         <div class="dropdown" style="float:right">
             <div id="menu-content">
                 <a href="index.html">Home</a>
@@ -22,6 +28,10 @@
                 <a href="about.html">About</a>
             </div>
         </div>
+        <div class="it3">
+            <p id="menu">≡</p>
+        </div>
+    
     </div>
      <!-- The header with the slogan-->
      <div class="image">
@@ -30,12 +40,13 @@
         </div>
     
         <div class="back_image"></div>
+        <div class="line"></div>
+        
     </div>
 
     <section>
         <br>
-        <h2 class="section-title-bg">TECHNOLOGY AND SAFETY FEATURES</h2>
-        <br>
+        <h2 class="section-title-bg">TECH AND SAFETY FEATURES</h2>
         <br>
         <div class="feature-container">
             <div class="feature">
@@ -51,33 +62,76 @@
                 <p>Automatic occupancy monitoring</p>
             </div>
         </div>
-        <p>Our autonomous buses have cutting-edge technology to ensure passenger safety and convenience. Real-time location tracking and occupancy monitoring help optimize routes and maintain safe passenger levels. Our buses reduce emissions and environmental impact.</p>
-        <br>
+        <div class="text-container">
+            <p class="section-content">Our autonomous buses have cutting-edge technology to ensure passenger safety and convenience. Real-time location tracking and occupancy monitoring help optimize routes and maintain safe passenger levels. Our buses reduce emissions and environmental impact.</p>
+        </div>
+        
     </section>
 
     <section>
-        <h2 class="section-title-bg-2">STATISTICS ON SAFETY</h2>
-        <br>
+        <h2 class="section-title-bg-2">KEY STATS</h2>
         <br>
         <div class="feature-container">
-            <div class="feature">
+            <div class="feature2">
                 <img src="icon4.jpg" alt="No accidents during test">
                 <p>No accidents during test</p>
             </div>
-            <div class="feature">
+            <div class="feature2">
                 <img src="icon5.jpg" alt="15% reduction in carbon emissions">
-                <p>15% reduction in carbon emissions compared to normal other buses</p>
+                <p>15% less carbon emissions</p>
             </div>
-            <div class="feature">
+            <div class="feature2">
                 <img src="icon6.jpg" alt="Always on time">
                 <p>Always on time</p>
-                <br>
-                <br>
-                <br>
                 
             </div>
         </div>
+        <br>
+        <br>
     </section>
     <script src="security.js"></script>
 </body>
+
+    <!-- FOOTER -->
+    <dev class="footer">
+        <div class="grid-item1"> 
+            <a href="https://forms.gle/umMSgbidwgcHwt5R6">Feedback</a>
+            <br>
+            <br>
+            <a href="privacypolicy.html">Privacy Policy</a>
+        </div>
+        <div class="grid-item2"> 
+             <form>
+                <label for="fname">Sign up for the updates to get the latest news</label><br>
+                <input type="email" id="email_add" name="email_address" placeholder="Please enter your email"> <br>
+             </form>
+
+             <button>
+                Submit
+             </button>
+        </div>
+        <div class="grid-item3"> 
+            © Turbo Transpo
+        </div>
+
+        <div class="grid-item4"> 
+            <div class="twitter">
+                <a style="text-decoration: none;" href="https://twitter.com/TurboTranspo">
+                    <img class= "twitter_pic" src="./images/twitter_pic.png" > 
+                </a> @TurboTranspo
+            </div>
+            <div class="instagram">
+                <a style="text-decoration: none;" href="https://www.instagram.com/turbotranspo123/">
+                    <img class= "insta_pic" src="./images/instagram_pic.png" > 
+                </a> @turbotranspo123
+            </div>
+            <div class="facebook">
+                <a style="text-decoration: none;" href="https://www.facebook.com/TurboTranspo/">
+                    <img class= "facebook_pic" src="./images/facebook_pic.png" > 
+                </a> @TurboTranspo
+            </div>
+
+        </div>
+        
+    </dev>
 </html>
