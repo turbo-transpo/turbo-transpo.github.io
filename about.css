@@ -1,7 +1,7 @@
 body {
     margin: 0;
-    padding: 0
-
+    padding: 0;
+    background-color: #ece8e1;;
 }
 /* Global Variables */
 :root {
@@ -121,6 +121,7 @@ img {
   grid-gap: 50px;
   max-width: 100%;
   margin: auto;
+
 }
 
 .description{
@@ -172,7 +173,8 @@ img {
 .pre_team{
   font-family: "Onest";
   font-size: 4vw;
-  background-color: #78F9FF;
+  background-color: #8CFBAE;
+  color: #095256;
   padding-left: 20px;
 }
 
@@ -365,6 +367,10 @@ input[type="email" i] {
   writing-mode: horizontal-tb !important;
   padding-block: 1px;
   padding-inline: 2px;
+}
+
+#clear{
+  cursor:pointer;
 }
 
 label {
