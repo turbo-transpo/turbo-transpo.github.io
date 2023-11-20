@@ -6,6 +6,7 @@
     <title>Payments</title>
     <link rel="stylesheet" href="payment.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Onest" >
 </head>
     <body >
         <div class="menu-bar">
@@ -22,7 +23,7 @@
                     <a href="index.html">Home</a>
                     <a href="security.html">Security</a>
                     <a href="payments.html">Payments & Pricing</a>
-                    <a href="customer.html">Customer</a>
+                    <a href="customer.html">Features</a>
                     <a href="about.html">About</a>
                 </div>
             </div>
@@ -32,12 +33,19 @@
     
         </div>
 
-    <img class= "picture_left" src="images/Picleft.jpg">
+    <div class="image">
+        <div class="payment">
+            <p> Payments and 
+                <br> 
+                Pricing </p>
+            <div class="back_image"></div>
+        </div>
+    </div>
 
-    <h1 style="background-color: aqua;">Choose your plan</h1>
-
+    <h1 style="background-color: #095256; color: white; font-family:Onest; padding-top: 20px; padding-bottom: 20px;">Choose your plan</h1>
+<br>
     <table style="width: 80%">
-        <tr bgcolor="grey">
+        <tr backgroundg-color="grey">
         <th style="font-size: 20px;" >Daily rides</th>
         <th style="font-size: 20px;" >Montly rides</th>
         </tr>
@@ -58,8 +66,8 @@
         <td style="font-size: 20px;">Equity:   58,25$</td>
         </tr>
     </table>
-    <div class="accepted">
-    <h2 style="color: aquamarine; text-decoration: overline;">The following payment types are accepted:</h2>
+    <div style="font-size: 1.5vw" class="accepted">
+    <h2 style="color: #095256; text-decoration: overline; ">The following payment types are accepted:</h2>
     <ul>
         <li>Visa</li>
         <li>Mastercard</li>
@@ -68,35 +76,86 @@
         <li>Google pay</li>
         <li>Apple pay</li>
     </ul>
-        <div class="Cards">
-        <h3 >The following payment types are not accepted:</h3>
-        <ul>
-            <li>American Express</li>
-            <li>Prepaid credit cards</li>
-            <li>Visa gift card</li>
-            <li>Mastercard gift card</li>
-            <li>Visa debit</li>
-            <li>Debit</a></li>
-        </ul>
+    <div class="Cards">
+        <h3>The following payment types are not accepted:</h3>
+        
+        <div style="font-size: 1.5vw" class="cards_list">
+            <ul>
+                <li>Prepaid credit cards</li>
+                <li>Visa gift card</li>
+                <li>Mastercard gift card</li>
+                <li>Visa debit</li>
+                <li>Debit</a></li>
+            </ul>
         </div>
+            
+    </div>
         <img class= "picture1" src="images/Img1pay.jpg" >
 
         <div class="row">
             <h4 >Where to buy your tickets</h4>
             <div class="column">
               <img src="images/Bust1.jpg"  style="width:100%" height="200px%">
-              <p2 style="color: aquamarine;font-weight: bold;">Purshase your bus tickets at our personal bus stops</p>
+              <p2 style="color: #8CFBAE;font-weight: bold;">Purshase your bus tickets at our personal bus stops</p>
             </div>
             <div class="column">
               <img src="images/Transitpic.jpg" alt="Buy your tickets at our personal bus stops" style="width:100%" height="200px%" >
-              <p3 style="color: aquamarine; font-weight: bold;">Download our app and purshase your tickets online</p>
+              <p3 style="color: #8CFBAE; font-weight: bold;">Download our app and purshase your tickets online</p>
             </div>
             <div class="column">
                 <img src="images/Corner store.webp" alt="Buy your tickets at nearby corner stores" style="width:100%" height="200px% border: 5px solid" >
-                <p3 style="color: aquamarine; font-weight: bold;">Buy your tickets at nearby corner stores</p>
-              </div>
+                <p3 style="color: #8CFBAE; font-weight: bold;">Buy your tickets at nearby corner stores</p>
+                
+            </div>
+        </div>
+    </div>
+
+     <!-- FOOTER -->
+     <dev class="footer">
+        <div class="grid-item1"> 
+            <a href="https://forms.gle/umMSgbidwgcHwt5R6">Feedback</a>
+            <br>
+            <br>
+            <a href="privacypolicy.html">Privacy Policy</a>
+        </div>
+        <div class="grid-item2"> 
+             <form>
+                <label for="fname">Sign up for the updates to get the latest news</label><br>
+                <input type="email" id="email_add" name="email_address" placeholder="Please enter your email"> <br>
+                <span id="clear" class="clear_it"></span>
+             </form>
+
+            <a href="about.html">
+                <button>
+                    Submit
+                </button>
+            </a>
+                 
+        </div>
+        <div class="grid-item3"> 
+            © Turbo Transpo
+        </div>
+
+        <div class="grid-item4"> 
+            <div class="twitter">
+                <a style="text-decoration: none;" href="https://twitter.com/TurboTranspo">
+                    <img class= "twitter_pic" src="./images/twitter_pic.png" > 
+                </a> @TurboTranspo
+            </div>
+            <div class="instagram">
+                <a style="text-decoration: none;" href="https://www.instagram.com/turbotranspo123/">
+                    <img class= "insta_pic" src="./images/instagram_pic.png" > 
+                </a> @turbotranspo123
+            </div>
+            <div class="facebook">
+                <a style="text-decoration: none;" href="https://www.facebook.com/TurboTranspo/">
+                    <img class= "facebook_pic" src="./images/facebook_pic.png" > 
+                </a> @TurboTranspo
             </div>
 
+        </div>
+        
+    </dev>
     <script src="main.js"></script>
 
 </body>
