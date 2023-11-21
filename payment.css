@@ -53,19 +53,31 @@ h1{
    margin: 0px;
 }
 h3{
+  padding-left:5vw;
     font-size:25px ;
     color:#095256;
-    margin-top: -82px;
-    padding-left: 90px;
     text-decoration: overline;
+    font-weight: bold;
 }
 
 .cards_list{
   padding-left: 90px;
 }
 
+.pgrid{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.pgrid ul{
+  padding-left: 75px;
+}
+
 h2{
-    font-size: 25px;
+    padding-left:15px;
+    font-size:25px ;
+    color:#095256;
+    text-decoration: overline;
     font-weight: bold;
 }
 div.Cards{
@@ -74,10 +86,9 @@ div.Cards{
     bottom: 170px;
 }
 .picture1 {
-    width: 60%;
-    position: relative;
-    top: -200px;
-    padding-left: 200px;
+  padding-left: 25vw;
+  width: auto;
+  height: 30vh;
 }
 
 
@@ -131,7 +142,6 @@ h5{
     display: table;
   }
   .row{
-    margin-top: -190px;
     cursor: pointer;
     position:relative;
   }
