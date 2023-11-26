@@ -123,25 +123,24 @@ h5{
     box-sizing: border-box;
   }
   
-  .column {
+  .set {
     float: left;
     width: 33.33%;
     padding: 5px;
   }
 
-  .column > img{
+  .set > img{
     -webkit-box-shadow: 5px 5px 3px 3px rgba(0, 0, 0, 0.3);
     box-shadow: 3px 5px 3px 3px rgba(0, 0, 0, 0.3);
     object-fit: cover;
   }
   
-  /* Clearfix (clear floats) */
-  .row::after {
+  .order::after {
     content: "";
     clear: both;
     display: table;
   }
-  .row{
+  .order{
     cursor: pointer;
     position:relative;
   }
